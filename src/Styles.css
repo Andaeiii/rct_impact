@@ -1,0 +1,165 @@
+/* @font-face {
+  font-family: "opensans";
+  src: local('OpenSansLight'),
+    url('public/fonts/OpenSans/OpenSans-Light.ttf') format('ttf');
+
+  src: local('OpenSansLight'),
+    url('public/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: "opensans-bold";
+  src: local('OpenSansBold'), url('public/fonts/OpenSans/OpenSans-Bold.ttf');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Lato:ital,wght@0,100;1,100&family=Open+Sans:ital,wght@0,300;0,700;1,600&display=swap');
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #e9e5e4;
+}
+
+
+.btn-fdt,
+.btn-fdt-outline:hover,
+.btn-fdt:active {
+  color: #17a2b8;
+  background-color: #17a2b8;
+}
+
+.btn-fdt-outline {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.btn-fdt:hover {
+  color: #17a2b8;
+  background-color: #010616;
+}
+
+
+.btn-fdt-outline:hover {
+  color: #fff !important;
+}
+
+.three3btns button {
+  margin: 3px 3px 2px 0px;
+  border-radius: 5px !important;
+}
+
+.blogo {
+  position: absolute;
+  top: 44px;
+  right: 53px;
+}
+
+.mainbody {
+  width: 1200px;
+  height: 750px;
+  margin: 15px auto;
+  background-color: #f5f8fd;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgobj {
+  float: left;
+}
+
+
+.midpad10>div {
+  margin: 5px;
+}
+
+
+.accotpform {
+  position: fixed;
+  top: 300px;
+
+  z-index: 10000;
+  border: solid 3px rgb(197, 197, 197);
+
+  width: 250px;
+  min-height: 100px;
+  margin-left: -120px;
+  margin-top: -50px;
+  left: 50%;
+  top: 50%;
+
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.accotpform input {
+  padding: 8px !important;
+}
+
+.accotpform .ldrxx {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.accotpform button {
+  padding: 5px 9px !important;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainbody {
+    height: 900px !important;
+  }
+
+  .imgobj {
+    display: none !important;
+  }
+
+  .mainbody {
+    width: 100% !important;
+  }
+
+  .formobj {
+    width: 100% !important;
+  }
+
+  .otherCtrls {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+
+}
+
+
+.formobj {
+  width: 600px;
+  height: 725px;
+  float: right;
+  /* border: solid 1px #000;
+  border:solid 1px #4ed353; */
+}
+
+
+.formobj .fbox {
+  flex: 1;
+  width: 90%;
+  margin: 25px auto;
+  min-height: 665px;
+  overflow: hidden;
+  position: relative;
+  /* border: solid 3px #eaeaea */
+}
